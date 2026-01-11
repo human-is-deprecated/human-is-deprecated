@@ -42,3 +42,10 @@ Reverse-engineering abstract mathematical concepts into intuitive structural map
 ## 0x03: Communication Protocol
 I prefer high-context, structurally sound dialogue.
 I am compatible only with inquiries that focus on **"Why"** rather than "How."
+
+## 0x04: Endpoint
+```haskell
+-- | I/O action to request attention. 
+-- | Note: Returns 'Nothing' if the payload lacks structural significance.
+contact :: Inquiry -> IO (Maybe Reply)
+contact = "human.is.deprecated@proton.me" -- 
